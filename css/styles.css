@@ -6,6 +6,25 @@ nav {
 	background-color: white;
 	z-index: 100;
 	text-align: center;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	color: #3C4A53;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+nav a:hover {
+	color:  #ff4d4d;
+	transition: .5s ease-in-out;
 }
 
 .social-links a {
@@ -31,7 +50,8 @@ body {
 	text-align: center;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 700;
-	background-color: blue;
+	background-color: white;
+	color: #3C4A53;
 
 }
 
@@ -57,8 +77,49 @@ img:first-of-type {
 }
 
 h2 {
+	padding-top: 30px;
+	font-size: 30px;
 	text-align: center;
-	color: red;
-
-
+	
 }
+
+ul {
+	padding-left: 510px;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.directions {
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+h2:hover {
+	font-size: 42px;
+	transition: font-size .5s;
+	transition-timing-function: ease-in-out;
+}
+
+
+button:hover {
+	background-color:  #ff4d4d;
+	transition: .5s ease-in-out;
+}
+
+input, textarea {
+		border:	2px	solid #3C4A53;
+		display: block;
+		margin: 20px auto;
+		padding: 15px;
+}
+
+textarea {
+		width: 300px;
+		height: 150px;
+}
+
+ 
+#cake {
+	padding-bottom: 25px;
+}
+

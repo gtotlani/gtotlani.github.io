@@ -63,13 +63,14 @@ button {
 	text-transform: uppercase;
 	font-weight: bold;
 	padding: 8px 15px;
-	margin: 0 10px;
+	margin: 10px;
 }
 
 img {
 	margin: 0 auto;
 	max-width: 800px;
 	display: none;
+	max-height: 600px;
 }
 
 img:first-of-type {
@@ -77,11 +78,15 @@ img:first-of-type {
 }
 
 h2 {
+	margin-left: 350px;
+	margin-right: 350px;
 	padding-top: 30px;
 	font-size: 30px;
 	text-align: center;
-	
+	transition: font-size .5s;
+	transition-timing-function: ease-in-out;
 }
+	
 
 ul {
 	padding-left: 510px;
@@ -90,14 +95,12 @@ ul {
 }
 
 .directions {
-	padding-right: 200px;
-	padding-left: 200px;
+	padding-right: 220px;
+	padding-left: 220px;
 }
 
 h2:hover {
 	font-size: 42px;
-	transition: font-size .5s;
-	transition-timing-function: ease-in-out;
 }
 
 
@@ -119,7 +122,24 @@ textarea {
 }
 
  
-#cake {
+/*#cake {
 	padding-bottom: 25px;
+}*/
+
+.fa {
+	color: black;
+	font-size: 30px;
+	padding: 10px 20px;
 }
 
+.fa-facebook-square:hover {
+	color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+	color: #4099FF;
+}
+
+.fa-instagram:hover {
+	color: #8a3ab9;
+}

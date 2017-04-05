@@ -147,3 +147,8 @@ textarea {
 .face {
 	margin: auto;
 }
+
+.myself {
+	padding-right: 220px;
+	padding-left: 220px;
+}

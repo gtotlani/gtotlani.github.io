@@ -94,7 +94,7 @@ ul {
     list-style-position: inside;
 }
 
-.directions {
+.directions, .myself {
 	padding-right: 220px;
 	padding-left: 220px;
 }
@@ -148,7 +148,7 @@ textarea {
 	margin: auto;
 }
 
-.myself {
+/*.myself {
 	padding-right: 220px;
 	padding-left: 220px;
-}
+}*/
